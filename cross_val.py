@@ -18,3 +18,4 @@ def create_folds(df):
         df.loc[val, 'kfold'] = i
 
     return df
+
