@@ -21,6 +21,8 @@ def run(folds, model):
     # cross validation (Stratified K folds)
     df = cross_val.create_folds(df)
 
+    df.to_csv("input/cross_val_5folds.csv", index = False)
+
     # training and validation set
     df_train = df[df.kfold != folds].reset_index(drop = True)
     df_valid = df[df.kfold == folds].reset_index(drop = True)
@@ -80,7 +82,6 @@ if __name__ == "__main__":
     parser.add_argument(
         "--model",
         type = str
-        
     )
 
     args = parser.parse_args()
@@ -89,4 +90,3 @@ if __name__ == "__main__":
         folds = args.folds,
         model = args.model
     )
-
