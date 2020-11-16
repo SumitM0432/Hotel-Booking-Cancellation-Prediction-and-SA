@@ -28,9 +28,10 @@ Some trained models are saved in the models folder.
 3. type:</br>
     python train.py --folds 0 --model logistic_regression
 
-Note - you can change the folds from 0 to 4.</br>
-       The models name can be seen in the models dictionary in the model_dispatcher, but I can give them here.</br>
-       - logistic_regression</br>
-       - xgboost</br>
-       - random_forest</br>
-       - dnn</br>
+###### Note:
+you can change the folds from 0 to 4.</br>
+The models name can be seen in the models dictionary in the model_dispatcher, but I can give them here.</br>
+- logistic_regression</br>
+- xgboost</br>
+- random_forest</br>
+- dnn</br>
