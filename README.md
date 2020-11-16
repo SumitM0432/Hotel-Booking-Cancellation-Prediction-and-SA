@@ -13,7 +13,7 @@ The objective of the project is to predict the hotel booking status of the guest
 #### The article on the dataset - https://www.sciencedirect.com/science/article/pii/S2352340918315191#f0005 </br>
 
 ### EDA and SA
-The Exploratory Data Analysis and Statistical Analysis is done to get the insight about the data and answer some questions for example "Which is the busiest month of the year ?", "What is the average price of the room per person per night ?" and more. The correlation heatmap is plotted as well to see the most important features and the threshold correlation taken is 0.04 and the features are taken on the basis of that.
+The Exploratory Data Analysis and Statistical Analysis is done to get the insight about the data and answer some questions for example "Which is the busiest month of the year ?", "What is the average price of the room per person per night ?" and more. The correlation heatmap is plotted as well to see the most important features and the threshold correlation taken is 0.04 and the features are taken on the basis of that.</br>
 
 The EDA and SA notebook is given in the notebooks folder of the repository. [use the jupyter nbviewer to see the interactive graphs.]
 
@@ -25,9 +25,12 @@ Some trained models are saved in the models folder.
 ### How to run
 1. Download the repository.
 2. open the terminal and cd to the repository.
-3. type:
+3. type:</br>
     python train.py --folds 0 --model logistic_regression
 
-Note - you can change the folds from 0 to 4.
-       The models name can be seen in the models dictionary in the model_dispatcher, but I can give them here.
-       - logist
+Note - you can change the folds from 0 to 4.</br>
+       The models name can be seen in the models dictionary in the model_dispatcher, but I can give them here.</br>
+       - logistic_regression</br>
+       - xgboost</br>
+       - random_forest</br>
+       - dnn</br>
