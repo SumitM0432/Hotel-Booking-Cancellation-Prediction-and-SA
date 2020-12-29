@@ -2,7 +2,7 @@
 
 The objective of the project is to predict the hotel booking status of the guest if it'll be cancelled or not based on the various features like ADR (Average Daily Rate), booking changes, lead time, type of the hotel booked, and more. The type of hotels given in the dataset is Resort Hotels and City Hotels.
 
-#### Kaggle Notebook : [https://www.kaggle.com/sumitm004/eda-sa-and-hotel-booking-cancellation-prediction]
+#### [Kaggle Notebook](https://www.kaggle.com/sumitm004/eda-sa-and-hotel-booking-cancellation-prediction)
 
 ##### config.py - Configuration File</br>
 ##### cross_val.py - Cross Validation File to make Stratifiedkfolds (5 folds)</br>
